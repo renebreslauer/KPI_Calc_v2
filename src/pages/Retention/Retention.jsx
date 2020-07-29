@@ -1,17 +1,15 @@
 import React from 'react'
 import './Retention.scss'
-import { ColumnGrid } from '../../components/index'
+import { ColumnGrid, LowerNav } from '../../components/index'
 
 function Retention() {
-
-    return (
-        <>
-        <div className="page_container" id="Retention">
-
+  return (
+    <>
+      <div className="page_container" id="Retention">
         <ColumnGrid />
-        </div>
-        </>
-    )
+      </div>
+    </>
+  )
 }
 
 export default Retention

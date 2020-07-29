@@ -1,34 +1,35 @@
 @import '../../App.scss';
 
 .lower_nav_container {
-    width: 100%;   
-    position: sticky;
-    top: 5rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-   
-.lower_nav {
+  width: 100%;
+  position: sticky;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -30px;
+
+  .lower_nav {
     padding-bottom: 20px;
     border-bottom: 1px solid black;
-}
-    a {
- text-decoration: none;
- color: black;
- &:first-child {
-     margin-right: 40px;
- }
- &:nth-child(2) {
-     margin: 0 40px;
- }
- &:nth-child(3) {
-     margin: 0 40px;
- }
- &:nth-child(4) {
-     margin: 0 40px;
- }
- &:nth-child(5) {
-     margin-left: 40px;
- }
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    &:first-child {
+      margin-right: 40px;
     }
+    &:nth-child(2) {
+      margin: 0 40px;
+    }
+    &:nth-child(3) {
+      margin: 0 40px;
+    }
+    &:nth-child(4) {
+      margin: 0 40px;
+    }
+    &:nth-child(5) {
+      margin-left: 40px;
+    }
+  }
 }
