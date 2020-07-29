@@ -7,7 +7,7 @@ function Retention() {
     return (
         <>
         <div className="page_container" id="Retention">
-        <h1>Retention</h1>
+
         <ColumnGrid />
         </div>
         </>
