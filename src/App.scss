@@ -106,7 +106,7 @@ h1 {
   height: 100vw;
   transform: rotate(-90deg) translateX(-100vh);
   transform-origin: top left;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
   position: absolute;
   scrollbar-width: none;
