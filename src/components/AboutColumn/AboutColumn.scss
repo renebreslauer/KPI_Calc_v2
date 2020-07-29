@@ -1,0 +1,17 @@
+@import '../../App.scss';
+
+.about_column_wrapper {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid black;
+  height: 100vh;
+  margin: 0 2.5px;
+  padding: 0 2.5px;
+}
+
+.about_column_text {
+  height: 70vh;
+
+  padding: 20px;
+  font-size: 2.5vw;
+}

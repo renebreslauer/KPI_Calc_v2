@@ -1,18 +1,28 @@
 import React from 'react'
 import './LowerNav.scss'
-import { HashLink as Link } from 'react-router-hash-link'
+import { NavHashLink as NavLink } from 'react-router-hash-link'
 
 function LowerNav() {
   return (
     <>
       <div class="lower_nav_container">
         <div class="lower_nav">
-          <Link smooth to="/#Retention">
+          <NavLink
+            smooth
+            to="/#Retention"
+            className="navlink"
+            activeClassName="navlink_active"
+          >
             Retention
-          </Link>
-          <Link smooth to="/#Growth">
+          </NavLink>
+          <NavLink
+            smooth
+            to="/#Growth"
+            className="navlink"
+            activeClassName="navlink_active"
+          >
             Growth
-          </Link>
+          </NavLink>
           <a href="#">SEO</a>
           <a href="#">Ads</a>
           <a href="#">Social</a>

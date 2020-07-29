@@ -6,8 +6,10 @@ function Column(props) {
   return (
     <div className="column_wrapper">
       <div className="column_header">
-        <h2>{props.header}</h2>
-        <span className="highlight"></span>
+        <span className="highlight">
+          <h2>{props.header}</h2>
+        </span>
+
         <span className="learn_more">+</span>
       </div>
       <div className="column_body">

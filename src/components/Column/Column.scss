@@ -2,7 +2,7 @@
 
 .column_wrapper {
   border-left: 1px solid black;
-  height: 60vh;
+  height: 100vh;
   margin: 0 2.5px;
   padding: 0 2.5px;
 }
@@ -14,7 +14,7 @@
   justify-content: space-between;
   margin-left: 20px;
   position: fixed;
-  height: 20px;
+  height: 10px;
   h2 {
     font-size: 18px;
   }
@@ -25,8 +25,21 @@
 }
 
 .column_body {
-  height: 50vh;
+  height: 60vh;
   overflow-y: scroll;
   margin-top: 40px;
   padding: 20px;
+}
+
+.highlight {
+  padding: 0 10px;
+  line-height: 0;
+  border-radius: 3px;
+  display: inline-block;
+  &:first-child {
+    background: rgba($lightBlue, 0.5);
+  }
+  &:nth-of-type(2) {
+    background: rgba($yellow, 0.5);
+  }
 }

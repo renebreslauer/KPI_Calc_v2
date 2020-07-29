@@ -1,16 +1,15 @@
 import React from 'react'
 import './Growth.scss'
-import { LowerNav } from '../../components/index'
+import { ColumnGrid } from '../../components/index'
 
 function Growth() {
-
-    return (
-        <>
-   
-        <div className="page_container" id="Growth">
-        <h1>Growth</h1></div>
-        </>
-    )
+  return (
+    <>
+      <div className="page_container" id="Growth">
+        <ColumnGrid />
+      </div>
+    </>
+  )
 }
 
 export default Growth
