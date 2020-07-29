@@ -1,0 +1,9 @@
+@import '../../App.scss';
+
+.column_grid_wrapper {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+width: 100vw;
+
+}
+

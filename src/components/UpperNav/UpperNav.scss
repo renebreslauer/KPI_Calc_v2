@@ -1,0 +1,25 @@
+@import '../../App.scss';
+
+.upper_nav {
+    position: fixed;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 20px 0px 0px;
+    width: 100%;
+    &_link {
+        text-decoration: none;
+    &:first-child {
+        color: $lightBlue;
+        margin-right: 20px;
+    }
+    &:nth-child(2) {
+        color: $yellow;
+        margin: 0 10px;
+    }
+    &:nth-child(3) {
+        color: $orange;
+        margin-left: 10px;
+    }
+}
+}
