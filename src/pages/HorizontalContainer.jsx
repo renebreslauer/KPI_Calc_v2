@@ -1,6 +1,6 @@
 import React from 'react'
 import { LowerNav } from '../components/index'
-import { Home, Retention, Growth } from './index'
+import { Home, Retention, Growth, Seo, Ads, Social } from './index'
 import '../App.scss'
 
 function HorizontalContainer() {
@@ -13,10 +13,8 @@ function HorizontalContainer() {
       <div className="outer-wrapper">
         <div className="wrapper">
           <Retention />
-
           <Growth />
-
-          <Growth />
+          <Seo />
         </div>
       </div>
     </>

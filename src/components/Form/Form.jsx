@@ -1,6 +1,6 @@
 import React from 'react'
 import './Form.scss'
-import {SubmitButton, Input } from '../Snippets/index'
+import {SubmitButton, ClearButton, Input } from '../Snippets/index'
 
 function Form() {
 
@@ -11,6 +11,7 @@ function Form() {
         <Input placeholder="Total Visitors" />
         <Input placeholder="Return Visitors" /></div>
         <SubmitButton />
+        <ClearButton />
         </form>
         </>
     )

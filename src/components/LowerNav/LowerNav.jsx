@@ -30,7 +30,14 @@ function LowerNav() {
             <div className="bubble"></div>
           </div>
           <div class="link_container">
-            <a href="#">SEO</a>
+          <NavLink
+              smooth
+              to="/#Seo"
+              className="navlink"
+              activeClassName="navlink_active"
+            >
+              Seo
+            </NavLink>
             <div className="bubble"></div>
           </div>
           <div class="link_container">
