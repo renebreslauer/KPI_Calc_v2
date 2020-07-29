@@ -4,8 +4,8 @@ import { Column, AboutColumn } from '../index'
 
 function ColumnGrid() {
   const header = [
-    'Rate of Return',
-    'Burn Rate',
+    'Visitor Return Rate',
+    'Bounce Rate',
     'Churn Rate',
     'Net Promoter Score',
   ]

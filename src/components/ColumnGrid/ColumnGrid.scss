@@ -2,10 +2,13 @@
 
 .column_grid_wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(5vw, 20vw));
+  grid-template-columns: repeat(auto-fill, minmax(5vw, 18vw));
   width: 100vw;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 175px;
+  div:first-child {
+    border: none;
+  }
 }
 
 @media screen and (max-width: 1100px) {

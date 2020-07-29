@@ -7,32 +7,40 @@ function LowerNav() {
     <>
       <div class="lower_nav_container">
         <div class="lower_nav">
-          <NavLink
-            smooth
-            to="/#Retention"
-            className="navlink"
-            activeClassName="navlink_active"
-          >
-            Retention
-          </NavLink>
-          <NavLink
-            smooth
-            to="/#Growth"
-            className="navlink"
-            activeClassName="navlink_active"
-          >
-            Growth
-          </NavLink>
-          <a href="#">SEO</a>
-          <a href="#">Ads</a>
-          <a href="#">Social</a>
-        </div>
-        <div class="progress_bar">
-          <div class="active_bubble"></div>
-          <div class="active_bubble"></div>
-          <div class="active_bubble"></div>
-          <div class="active_bubble"></div>
-          <div class="active_bubble"></div>
+          <div class="link_container">
+            <NavLink
+              smooth
+              to="/#Retention"
+              className="navlink"
+              activeClassName="navlink_active"
+            >
+              Retention
+            </NavLink>
+            <div className="bubble"></div>
+          </div>
+          <div class="link_container">
+            <NavLink
+              smooth
+              to="/#Growth"
+              className="navlink"
+              activeClassName="navlink_active"
+            >
+              Growth
+            </NavLink>
+            <div className="bubble"></div>
+          </div>
+          <div class="link_container">
+            <a href="#">SEO</a>
+            <div className="bubble"></div>
+          </div>
+          <div class="link_container">
+            <a href="#">Ads</a>
+            <div className="bubble"></div>
+          </div>
+          <div class="link_container">
+            <a href="#">Social</a>
+            <div className="bubble"></div>
+          </div>
         </div>
       </div>
     </>
