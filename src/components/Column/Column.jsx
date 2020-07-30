@@ -13,6 +13,7 @@ function Column(props) {
         <span className="learn_more">+</span>
       </div>
       <div className="column_body">
+      <h2>{props.meaning}</h2>
       <h3>What is {props.header}?</h3>
         <p>{props.body}</p>
         <h3>What does it indicate?</h3>
