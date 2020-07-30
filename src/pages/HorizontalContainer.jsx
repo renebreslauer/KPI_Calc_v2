@@ -14,7 +14,9 @@ function HorizontalContainer() {
         <div className="wrapper">
           <Retention />
           <Growth />
+          <Ads />
           <Seo />
+          <Social />
         </div>
       </div>
     </>

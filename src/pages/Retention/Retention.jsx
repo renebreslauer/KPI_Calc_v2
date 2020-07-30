@@ -1,6 +1,6 @@
 import React from 'react'
 import './Retention.scss'
-import { ColumnGrid, LowerNav } from '../../components/index'
+import { ColumnGrid } from '../../components/index'
 
 function Retention() {
   return (
