@@ -3,27 +3,32 @@ export const Category =
 	{
 		
 		"name": "Retention",
-		"meaning": "Retention KPIs are all about retaining customers or figuring out why customers are abandoning your funnel."
+		"meaning": "Retention KPIs are all about retaining customers or figuring out why customers are abandoning your funnel.",
+		"url": "/#Retention"
 	},
 	{
 		
 		"name": "Growth",
-		"meaning": "Really, all of these KPIs are about growth - but these ones are more directly about revenue growth."
+		"meaning": "Really, all of these KPIs are about growth - but these ones are more directly about revenue growth.",
+		"url": "/#Growth"
 	},
 	{
 		
 		"name": "Ads",
-		"meaning": "These KPIs are all about advertisements."
+		"meaning": "These KPIs are all about advertisements.",
+		"url": "/#Ads"
 	},
 	{
 		
-		"name": "SEO",
-		"meaning": "These KPIs will help you with your social strategy."
+		"name": "Seo",
+		"meaning": "These KPIs will help you with your social strategy.",
+		"url": "/#Seo"
 	},
 	{
 	
 		"name": "Social",
-		"meaning": "These are your social media KPIs"
+		"meaning": "These are your social media KPIs",
+		"url": "/#Social"
 	}
 ]
 
@@ -63,21 +68,21 @@ export const Subcategory =
 	"category": "retention"
 	},
 	{
-		"name": "Return on Marketing Investment (ROI)",
-		"definition": "ROI is a measure of how much revenue your marketing campaigns achieve. This is the end-game. The be-all-end-all of KPIs.",
-		"indicator": "Analyzing marketing campaigns.",
-		"benchmark": "ROIs vary by industry. Here’s a tool that shows you industry specifics.",
-		"moreInfo": "All of the metrics that follow should be used to grow your ROI. Capturing a high ROI % is the goal of almost all marketing campaigns (save possibly branding.) If you feel like your ROI isn’t as high as it should be, keep reading.",
-		"category": "growth"
-		},
-		{
-			"name": "Customer Lifetime Value",
-			"definition": "A measure of how much money you can expect from a single customer’s account.",
-			"indicator": "Measuring against your CAC to figure out how worthwhile your marketing strategies are. You need to know how fast you’re going to recover your CAC.",
-			"benchmark": "benchmark",
-			"moreInfo": "Measuring your LTV against your CAC is insanely important. You want to know how much your customers are really worth, so that you can determine a good CAC benchmark.",
-			"category": "growth"
-			},
+	"name": "Return on Marketing Investment (ROI)",
+	"definition": "ROI is a measure of how much revenue your marketing campaigns achieve. This is the end-game. The be-all-end-all of KPIs.",
+	"indicator": "Analyzing marketing campaigns.",
+	"benchmark": "ROIs vary by industry. Here’s a tool that shows you industry specifics.",
+	"moreInfo": "All of the metrics that follow should be used to grow your ROI. Capturing a high ROI % is the goal of almost all marketing campaigns (save possibly branding.) If you feel like your ROI isn’t as high as it should be, keep reading.",
+	"category": "growth"
+	},
+	{
+	"name": "Customer Lifetime Value",
+	"definition": "A measure of how much money you can expect from a single customer’s account.",
+	"indicator": "Measuring against your CAC to figure out how worthwhile your marketing strategies are. You need to know how fast you’re going to recover your CAC.",
+	"benchmark": "benchmark",
+	"moreInfo": "Measuring your LTV against your CAC is insanely important. You want to know how much your customers are really worth, so that you can determine a good CAC benchmark.",
+	"category": "growth"
+	},
 
 ]
 

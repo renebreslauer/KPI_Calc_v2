@@ -1,55 +1,30 @@
 import React from 'react'
 import './LowerNav.scss'
 import { NavHashLink as NavLink } from 'react-router-hash-link'
+import { Category } from '../../data'
 
 function LowerNav() {
   return (
     <>
-      <div class="lower_nav_container">
-        <div class="lower_nav">
-          <div class="link_container">
-            <NavLink
-              smooth
-              to="/#Retention"
-              className="navlink"
-              activeClassName="navlink_active"
-            >
-              Retention
-            </NavLink>
-            <div className="bubble"></div>
+<div className="lower_nav_container">
+<div className="lower_nav">
+
+{Category.map((catData) => (
+    <>
+    <div class="link_container">
+         <NavLink
+         smooth to={catData.url}
+         className="navlink"
+         activeClassName="navlink_active"
+          >
+          {catData.name}   
+          </NavLink>
+          <div className="bubble"></div>
           </div>
-          <div class="link_container">
-            <NavLink
-              smooth
-              to="/#Growth"
-              className="navlink"
-              activeClassName="navlink_active"
-            >
-              Growth
-            </NavLink>
-            <div className="bubble"></div>
-          </div>
-          <div class="link_container">
-          <NavLink
-              smooth
-              to="/#Seo"
-              className="navlink"
-              activeClassName="navlink_active"
-            >
-              Seo
-            </NavLink>
-            <div className="bubble"></div>
-          </div>
-          <div class="link_container">
-            <a href="#">Ads</a>
-            <div className="bubble"></div>
-          </div>
-          <div class="link_container">
-            <a href="#">Social</a>
-            <div className="bubble"></div>
-          </div>
+          </>
+        ))}
         </div>
-      </div>
+        </div>
     </>
   )
 }

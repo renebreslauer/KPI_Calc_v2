@@ -3,12 +3,12 @@ import './ColumnGrid.scss'
 import { Column, AboutColumn } from '../index'
 import { Category, Retention, Subcategory} from '../../data'
 
-function ColumnGrid() {
+function ColumnGrid(props) {
     return (
         <>
         <div className="column_grid_wrapper">
         {Category.map((categoryDef) => {
-            if (categoryDef.name === "Retention") {
+            if (categoryDef.name === 'Retention') {
         return <AboutColumn about_column_text={categoryDef.meaning} />
             }
         })}
