@@ -1,9 +1,11 @@
 import React from 'react'
 import './ColumnGrid.scss'
 import { Column, AboutColumn } from '../index'
-import { Category, Retention, Subcategory} from '../../data'
+import { Category, Subcategory} from '../../data'
 
-function ColumnGrid(props) {
+function ColumnGrid() {
+
+
     return (
         <>
         <div className="column_grid_wrapper">
@@ -15,7 +17,8 @@ function ColumnGrid(props) {
 
         {Subcategory.map((subcatData) => {
             if (subcatData.category === 'retention') {
-        return <Column header={subcatData.name}
+        return <Column 
+        header={subcatData.name}
         body={subcatData.definition}
         indicator={subcatData.indicator}
         benchmark={subcatData.benchmark}

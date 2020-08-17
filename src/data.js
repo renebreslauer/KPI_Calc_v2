@@ -5,12 +5,15 @@ export const Category =
 		"name": "Retention",
 		"meaning": "Retention KPIs are all about retaining customers or figuring out why customers are abandoning your funnel.",
 		"url": "/#Retention"
+		
+		
 	},
 	{
 		
 		"name": "Growth",
 		"meaning": "Really, all of these KPIs are about growth - but these ones are more directly about revenue growth.",
 		"url": "/#Growth"
+		
 	},
 	{
 		
@@ -41,7 +44,9 @@ export const Subcategory =
 	"indicator": "Is your content engaging enough? Do customers want to buy more of your products? Returning visitors helps you figure out your strategy across verticals.",
 	"benchmark": "<25% is ideal. If you're over 40%, you're killing it.",
 	"moreInfo": "RVR is definitely one of those 'hidden' KPIs that a ton of marketers like to ignore. But honestly, RVR can give you a good luck at how your overall content strategy is going. Return customers are 5x more valuable than new ones, so a high RVR % is huge.",
-	"category": "retention"
+	"category": "retention",
+	'backgroundColor': 'red'
+
 	
 	},
 	{
@@ -50,7 +55,9 @@ export const Subcategory =
 	"indicator": "Stopping conversion loss. Also, bounce rate can give you some key insights into how you’re layering your site content. If your prospects are leaving after one page, you need to figure out why.",
 	"benchmark": "Depends on the content type.",
 	"moreInfo": "Having a high bounce rate doesn’t have to be a bad thing; it depends on where it’s happening. Landing pages, forms, and pillar content (or any other one-stop-shop) are going to have high bounce rates. But, if your eCommerce site has a high bounce rate, you need to take some action. Why are your customers ditching your funnel mid-dance?",
-	"category": "retention"
+	"category": "retention",
+	'backgroundColor': 'yellow'
+
 	},
 	{
 	"name": "Customer Churn Rate",

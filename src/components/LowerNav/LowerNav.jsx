@@ -4,6 +4,8 @@ import { NavHashLink as NavLink } from 'react-router-hash-link'
 import { Category } from '../../data'
 
 function LowerNav() {
+
+
   return (
     <>
 <div className="lower_nav_container">
@@ -11,15 +13,17 @@ function LowerNav() {
 
 {Category.map((catData) => (
     <>
-    <div class="link_container">
+    <div className='link_container'>
          <NavLink
          smooth to={catData.url}
          className="navlink"
-         activeClassName="navlink_active"
+         activeClassName="activeRoute"
+        
           >
-          {catData.name}   
+          {catData.name}
+         
           </NavLink>
-          <div className="bubble"></div>
+          <div className='bubble'></div>
           </div>
           </>
         ))}
